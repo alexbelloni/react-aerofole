@@ -1,11 +1,11 @@
 {
   "name": "aerofole",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "description": "A simple accordion component built with react",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/alexbelloni/react-aerofole"
   },
   "keywords": [
     "react",
@@ -15,7 +15,7 @@
   "scripts": {
     "build": "webpack"
   },
-  "author": "alex",
+  "author": "alex alves",
  
   "peerDependencies": {
     "prop-types": "^15.6.0"
