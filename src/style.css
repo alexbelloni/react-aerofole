@@ -1,0 +1,33 @@
+.accordion {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.accordion .title {
+    background-color: blue;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--white);
+    display: flex;
+    justify-content:space-between;
+    cursor: pointer;
+}
+
+.accordion .title .more{
+    display: block;
+}
+
+.accordion.show-details .title .more{
+    display: none;
+}
+
+.accordion .content {
+    background-color: white;
+    padding: 15px;
+    display: none;
+}
+
+.accordion.show-details .content {
+    display: block;
+}
