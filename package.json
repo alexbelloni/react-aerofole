@@ -1,6 +1,6 @@
 {
   "name": "aerofole",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "A simple accordion component built with react",
   "main": "./lib/index.js",
   "repository": {
