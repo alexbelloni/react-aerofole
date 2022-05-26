@@ -11,7 +11,7 @@ function App() {
   return (  
 
     <div className="App">
-        ...
+        
         <Aerofole title="planets" background="blue" color= "white">
             <ul style={{ background: "white", color:"blue" }}>
                 <li>Mercury</li>
@@ -20,7 +20,7 @@ function App() {
                 <li>Mars</li>
             </ul>
         </Aerofole>
-        ...
+        
     </div>
   );
 }
@@ -29,10 +29,13 @@ function App() {
 ![aerofole in action](./aerofole.jpg)
 
 ## Publish process
-npm version patch
+npm version patch  
 npm run build  
 npm pack  
 npm publish  
+
+## GitHub
+https://github.com/alexbelloni/react-aerofole
 
 -------------    
 <br/>  
